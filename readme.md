@@ -2,7 +2,7 @@
 
 ## What's in it for me ?
 
-- MariaDB Database
+- Postgres Database
 - A Adminer instance to manage the DB
 - An Express Api
 - Nginx based Web Server
