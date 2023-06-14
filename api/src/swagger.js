@@ -5,7 +5,7 @@ module.exports = (app) => {
     const swaggerDefinition = {
       openapi: "3.0.0",
       info: {
-        title: "Express API for JSONPlaceholder",
+        title: "Express API for Naapp",
         version: "1.0.0",
         license: {
           name: 'Licensed Under MIT',

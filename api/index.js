@@ -20,8 +20,9 @@ require("./src/sync")();
 require("./src/swagger")(app);
 
 // Routes
-//require("./src/routes/auth.routes")(app);
 console.log('[EXPRESS] - Starting tkt...');
+
+require("./src/routes/auth.route")(app);
 
 // Start server
 app.listen(PORT, () => {
