@@ -6,7 +6,6 @@ const cors = require("cors");
 
 // Express App
 const app = express();
-
 app.use(cors());
 app.use(bodyParser.json());
 
@@ -20,9 +19,9 @@ require("./src/sync")();
 // Swagger
 require("./src/swagger")(app);
 
-
 // Routes
-require("./src/routes/auth.routes")(app);
+//require("./src/routes/auth.routes")(app);
+console.log('[EXPRESS] - Starting tkt...');
 
 // Start server
 app.listen(PORT, () => {
